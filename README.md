@@ -18,6 +18,22 @@ I just wrapped up an 𝗲𝘅𝗰𝗶𝘁𝗶𝗻𝗴 𝗺𝗶𝗰𝗿𝗼𝘀�
 "I have used Role based authentication RBAC for deploying my K8S cluster using 'Service Account as Jenkins' and bind svc account with roles. To successfully run the Rbac, I have generated a token and authenticated in the global credentials section in Manage Jenkins"
 That's how CD part was successfully deployed, with help of Jenkins + EKS 
 
+## 1. Overview of the Application:
+
+Let’s assume we are working on an eCommerce application with different functionalities:
+
+🔹 Email Service – Sends notifications when a user makes a purchase.
+
+🔹 Cart Service – Manages shopping cart functionality.
+
+🔹 Shipping Service – Handles shipping details and address management.
+
+🔹 Frontend UI – Displays all components in a user-friendly interface.
+
+🔹 Payment Service – Handles payment processing.
+
+Each of these functionalities is managed by a separate microservice to ensure scalability, modularity, and flexibility.
+
 💡 𝗛𝗼𝘄 𝗜𝘁 𝗪𝗼𝗿𝗸𝘀
 
 🔹 Each microservice has its 𝗼𝘄𝗻 𝗚𝗶𝘁𝗛𝘂𝗯 𝗯𝗿𝗮𝗻𝗰𝗵.
